@@ -1,54 +1,24 @@
-
-body{
-    background-color: #000;
+i,
+.navbar .container-xl a {
+  color: grey;
 }
 
-.post{
-    width: 400px;
-    margin: auto;
-    background-color: #fff;
-    border-radius: 5px;
-
+.navbar .container-xl a {
+    font-family: 'Georama', sans-serif;
+    font-size: 2rem;
 }
 
-.post .post-header {
-    height: 50px;
+i:hover{
+    color: #0d6efd;
+}
+.navbar .container-xl a {
+    margin-left: 10px;
+}
+.navbar .container-xl i {
+  line-height: 100%;
+  
 }
 
-.post .post-header .html{
-    float: left;
-    height: 50px;
-    margin: 20px 20px 0;
-    display: inline;
-}
-.post .post-header .text{
-float: left;
-}
-.post .post-header .text h1,
-.post .post-header .text p{
-margin: 0;
-padding: 0;
-}
-.post .post-header .dots{
-    float: right;
-    height: 50px;
-    width: 50px;
-    margin: 20px 5px 0;
-
-
-}
-.post .post-img img{
-    width: 400px;
-} 
-
-.post .post-footer .iconos .bookmark{
-    float: right;
-}
-
-.post .post-footer .iconos i{
-    margin: 4px;
-}
-
-.post .post-footer{
-    padding: 10px;
+img{
+  margin: auto;
 }
